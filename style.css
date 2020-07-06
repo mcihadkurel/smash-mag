@@ -55,3 +55,20 @@ margin-right:5%;
     position:relative;
     right:323px
 }
+
+.absolute {
+   text-align: center;
+   margin-top: 50px;
+   font-size: 25px;
+   font-weight: 700;
+   background-color: red;
+   width: 30%;
+   position: absolute;
+   /* left: 30%;
+   top: 15%; */
+}
+
+.absolute h2 {
+ 
+ 
+}
