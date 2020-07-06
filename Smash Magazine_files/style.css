@@ -128,23 +128,5 @@ article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: minmax(50px, auto);
-    margin:5%;
-    
-}
-
-.leftup {
-    background-color: rgb(245, 241, 241);
-
-}
-
-.rightup {
-    background-color: rgb(245, 248, 248);
-}
-
-.leftdown {
-    background-color: rgb(247, 247, 247);
-}
-
-.rightdown {
-    background-color: rgb(250, 250, 250);
+    margin:5%
 }
