@@ -268,5 +268,44 @@ section a {
 }
 
 .person p a {
-    color: #027979
+    color: hsl(180, 97%, 24%)
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5%;
+    
+}
+
+.grid-img {
+    border:8px solid #c3bcbc;
+    margin-bottom: 170px;
+}
+
+.main-grid{
+    margin-left: 25px;
+}
+
+.main-grid p{
+    margin-right: 20%;
+}
+
+.underline{
+    font-weight: 700;
+}
+
+.underline span{
+    font-size: 18px;
+    text-decoration: underline; 
+}
+
+
+
+
+
+
+
+
+
+
