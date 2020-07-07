@@ -388,7 +388,7 @@ section a {
     margin: 20px 0 0 60px;
     padding: 15px 50px;
     color: white;
-    background-color: rgb(209, 202, 202);
+    color: #9a7575;;
     font-size: 20px;
  
 }
@@ -413,8 +413,7 @@ section a {
 .lastbox2 button {
     margin: 20px 0 0 60px;
     padding: 15px 50px;
-    color: white;
-    background-color: rgb(209, 202, 202);
+    color: #9a7575;
     font-size: 20px;
     border-radius: 4px;
 }
@@ -439,17 +438,51 @@ section a {
 .lastbox button {
      margin: 20px 0 0 60px;
     padding: 15px 50px;
-    color: white;
-    background-color: rgb(209, 202, 202);
+    color: #9a7575;
     font-size: 20px;
- 
 }
 
+footer {
+    text-align:center;
+    background-color: #abbabd;
+    padding: 100px;
+}
 
+footer h4 {
+    color: #333;
+    font-weight:lighter;
+    margin-bottom:28px;
+}
 
+footer p {
+    color:#333;
+    margin: 62px 400px 32px 400px;
+    line-height: 1.8rem;
+    font-size:14px;
+}
 
+.brands {
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 20px;
+}
 
+.brands a {
+    margin-right:23px;
+    color: #333;
+    line-height: 2.8rem;
+}
 
+.about {
+    display:flex;
+    margin-left:65px;
+}
 
+.about a {
+ margin-right:33px;
+ color: #333
+}
 
-
+footer p a {
+    color:#333;
+}
