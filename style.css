@@ -169,3 +169,38 @@ section a {
     font-weight: bolder;
     font-size: 24px;
 }
+
+.head {
+    margin: 15px 0 15px 0;
+    font-weight: 600;
+}
+
+.sub-head {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.sub-head:hover {
+    color: red;
+}
+
+.footer-head {
+    margin-top: 80px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 70px;
+    margin: 5%;   
+}
+
+.container1 {
+   padding: 20px; 
+   background-color: red;
+}
+
+.container2 {
+    padding: 40px;
+    background-color: gray;
+}
