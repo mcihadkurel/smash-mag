@@ -363,9 +363,92 @@ section a {
 .griddown {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 12px;
     margin: 5%;
 }
+
+.lastbox1 {
+    padding: 20px;
+    background-color: rgb(234, 234, 234);
+    width: 98%;
+    line-height: 2.0em;
+    border-radius: 15px;
+}
+
+.lastbox1 h2{ 
+    font-size: 40px;
+    line-height: 1.3em;  
+}
+
+.lastbox1 p {
+    margin-top: 25px;
+}
+
+.lastbox1 button {
+    margin: 20px 0 0 60px;
+    padding: 15px 50px;
+    color: white;
+    background-color: rgb(209, 202, 202);
+    font-size: 20px;
+ 
+}
+
+.lastbox2 {
+   padding: 20px;
+   background-color: rgb(234, 234, 234);
+    width: 98%;
+    line-height: 2.0em;
+    border-radius: 15px;
+}
+
+.lastbox2 h2{
+    font-size: 40px;
+    line-height: 1.3em;  
+}
+
+.lastbox2 p {
+    margin-top: 25px;
+}
+
+.lastbox2 button {
+    margin: 20px 0 0 60px;
+    padding: 15px 50px;
+    color: white;
+    background-color: rgb(209, 202, 202);
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.lastbox {
+    padding: 20px 20px 300px 20px ;
+    background-color: rgb(234, 234, 234);
+    width: 98%;
+    line-height: 2.0em;
+    border-radius: 15px;
+  
+}
+.lastbox h2{
+    font-size: 40px;
+    line-height: 1.3em;  
+}
+
+.lastbox p {
+    margin-top: 25px;
+}
+
+.lastbox button {
+     margin: 20px 0 0 60px;
+    padding: 15px 50px;
+    color: white;
+    background-color: rgb(209, 202, 202);
+    font-size: 20px;
+ 
+}
+
+
+
+
+
 
 
 
