@@ -192,15 +192,81 @@ section a {
     display: grid;
     grid-template-columns: 30% 60%;
     gap: 70px;
-    margin: 5%;   
+    margin: 5%;
+    color: white;
+    text-align: center;  
+    border-radius: 20px; 
 }
 
 .container1 {
-   padding: 20px; 
-   background-color: red;
+   padding: 120px; 
+   background-color: #333;
+   border-radius: 20px;
 }
 
 .container2 {
-    padding: 40px;
-    background-color: gray;
+    background-color: #6b6969;
+    padding:120px;
+    border-radius: 20px;
+}
+
+.advert {
+    text-align:center;
+    margin: 15% 0;
+    background-color: #f3eded;
+    width: 100%;
+    padding: 200px;
+}
+
+.advert h1 {
+    font-size: 60px;
+    margin: 5%;
+}
+
+.advert p {
+    margin: 2%;
+    width: 70%;
+    margin-left: 16%;
+}
+
+.advert button {
+    width: 380px;
+    height: 60px;
+    border-radius: 12px;
+    font-size:larger;
+    margin: 3% 0;
+}
+
+.advert button:hover {
+    background-color: #fff;
+}
+
+.flexsecond {
+    display:flex;
+}
+
+.personimg {
+    width:20%;
+    margin: 0 40px;
+    border:12px solid #c3bcbc;
+}
+
+.person {
+    width: 60%;
+}
+
+.person h4 {
+    color: #666;
+    font-size: 18px;    
+}
+
+.person p {
+    color: 333;
+    font-size: 20px;
+    margin: 25px 0;
+    line-height:1.8rem;
+}
+
+.person p a {
+    color: #027979
 }
