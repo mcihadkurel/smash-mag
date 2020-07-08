@@ -1,57 +1,33 @@
-# Project Name
+# Smash Magazine Clone
 
-> One paragraph statement about the project.
+This project contains floating and positioning elements. Given colors like make it seem as professional.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+<img src="./images/smashSS.png" alt="shot">
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Grids
+- Flexbox
+- Positioning and Floating Elements
+- Semantic HTML
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live](https://rawcdn.githack.com/mcihadkurel/smash-mag/ba87ec182a2b2c48a88e66f387fef94b4696f8b0/index.html)
 
 
-## Getting Started
+👤 **Author**
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Github: [@mcihadkurel](https://github.com/mcihadkurel)
+- Twitter: [@mece_ka](https://twitter.com/mece_ka)
+- LinkedIn: [@muhammed](https://www.linkedin.com/in/muhammed-cihad-8187581a8/)
 
+👤 **Author**
 
-To get a local copy up and running follow these simple example steps.
+- Github: [@GraceOyiza](https://github.com/GraceOyiza)
+- Twitter: [@_PopsonGrace](https://twitter.com/_PopsonGrace)
+- LinkedIn: [@grace](https://www.linkedin.com/in/grace-popoola-657a181aa/)
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -71,4 +47,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project has no license

@@ -1,80 +1,76 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Bitter', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter", serif;
 }
 
 body {
-    background-color: rgb(245, 248, 248);
+  background-color: rgb(245, 248, 248);
 }
 
 nav {
-    top: 0;
-    left: 0;
-    right: 0;
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    background-color: rgb(66, 66, 66);
-    font-family: 'Bitter', serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: rgb(66, 66, 66);
+  font-family: "Bitter", serif;
 }
 
 nav img {
-    height: 65px;
-    width: 240px;
-    margin-left: 12%;
-    background-color:white;
-    border-radius: 12px;
+  height: 65px;
+  width: 240px;
+  margin-left: 12%;
+  background-color: white;
+  border-radius: 12px;
 }
 
 nav ul {
-    display: flex;
-    margin-left:4%;
+  display: flex;
+  margin-left: 4%;
 }
 
 nav ul li {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color:white;
-    font-size: 24px;
-    padding:15px;
-    border-radius:12px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 12px;
 }
 
 .nav-input {
-    margin-right:5%;
-}
-
-nav ul li a:hover {
-    background-color:#2f2828;
+  margin-right: 5%;
 }
 
 .nav-input input {
-    width:330px;
-    height: 55px;
-    border-radius:12px;
-    margin-left:24px;
-    margin-top:22px; 
+  width: 330px;
+  height: 55px;
+  border-radius: 12px;
+  margin-left: 24px;
+  margin-top: 22px;
 }
 
 .nav-input i {
-    position:relative;
-    left:62px;
-    bottom:37px;
-    font-size:larger;
+  position: relative;
+  left: 62px;
+  bottom: 37px;
+  font-size: larger;
 }
 
 ::placeholder {
-    font-size:20px;
-    text-align:center;
-    font-family: 'Bitter', serif;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bitter", serif;
 }
 
 .absolute {
@@ -83,406 +79,407 @@ nav ul li a:hover {
 }
 
 .absolute h2 span {
-    background-color: rgb(199, 196, 196);
-    padding: 2px;
-    font-size: 35px;
-    font-weight: 900;
-    font-family: 'Bitter', serif;
+  background-color: rgb(199, 196, 196);
+  padding: 2px;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: "Bitter", serif;
 }
 
 .writer {
-    display: flex;
-    margin-bottom: 40px;
+  display: flex;
+  margin-bottom: 40px;
 }
 
 .writer p {
-    font-size:20px;
-    font-family: 'Bitter', serif;
-    margin:0 8px;
-
+  font-size: 20px;
+  font-family: "Bitter", serif;
+  margin: 0 8px;
 }
 .writer span {
-    font-style: italic;
-    font-size: 18px;
-    font-weight: lighter;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: lighter;
 }
 .writer img {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 .explanation {
-    font-size: 45px;
-    width: 90%
+  font-size: 45px;
+  width: 90%;
 }
 
 .tools {
-    display: flex;
+  display: flex;
 }
 
 .tools p {
-    margin: 20px 0 140px 0;
-    padding-left: 20px;
+  margin: 20px 0 140px 0;
+  padding-left: 20px;
 }
 
 .artfooter {
-    font-size: 50px;
-    margin-bottom: 85px;
+  font-size: 50px;
+  margin-bottom: 85px;
 }
 
-article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 5%;
+.article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5%;
 }
 
 .leftup {
-    background-color: rgb(240, 243, 242);
+  background-color: rgb(240, 243, 242);
 }
 
 .rightup {
-    background-color: rgb(245, 248, 248);
+  background-color: rgb(245, 248, 248);
 }
 
 .leftdown {
-    background-color: rgb(247, 247, 247);
+  background-color: rgb(247, 247, 247);
 }
 
 .rightdown {
-    background-color: rgb(250, 250, 250);
+  background-color: rgb(250, 250, 250);
 }
 
-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 5%;
-    line-height: 2rem;
-    grid-gap: 20px;
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5%;
+  line-height: 2rem;
+  grid-gap: 20px;
 }
 
-section span {
-    font-size: 9px;
+.section span {
+  font-size: 9px;
 }
 
-section a {
-    color: black;
-    font-weight: bolder;
-    font-size: 24px;
+.section a {
+  color: black;
+  font-weight: bolder;
+  font-size: 24px;
 }
 
 .head {
-    margin: 15px 0 15px 0;
-    font-weight: 600;
+  margin: 15px 0 15px 0;
+  font-weight: 600;
 }
 
 .sub-head {
-    text-decoration: underline;
-    font-size: 16px;
-}
-
-.sub-head:hover {
-    color: red;
+  text-decoration: underline;
+  font-size: 16px;
 }
 
 .footer-head {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .main-container {
-    display: grid;
-    grid-template-columns: 30% 60%;
-    gap: 70px;
-    margin: 5%;
-    color: white;
-    text-align: center;  
-    border-radius: 20px; 
+  display: grid;
+  grid-template-columns: 30% 60%;
+  gap: 70px;
+  margin: 5%;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
 }
 
 .container1 {
-   padding: 120px; 
-   background-color: #333;
-   border-radius: 20px;
+  padding: 120px;
+  background-color: #333;
+  border-radius: 20px;
 }
 
 .container2 {
-    background-color: #6b6969;
-    padding: 120px;
-    border-radius: 20px;
+  background-color: #6b6969;
+  padding: 120px;
+  border-radius: 20px;
 }
 
 .advert {
-    text-align: center;
-    margin: 15% 0;
-    background-color: #f3eded;
-    width: 100%;
-    padding: 200px;
+  text-align: center;
+  margin: 15% 0;
+  background-color: #f3eded;
+  width: 100%;
+  padding: 200px;
 }
 
 .advert h1 {
-    font-size: 60px;
-    margin: 5%;
+  font-size: 60px;
+  margin: 5%;
 }
 
 .advert p {
-    margin: 2%;
-    width: 70%;
-    margin-left: 16%;
+  margin: 2%;
+  width: 70%;
+  margin-left: 16%;
 }
 
 .advert button {
-    width: 380px;
-    height: 60px;
-    border-radius: 12px;
-    font-size: larger;
-    margin: 3% 0;
-}
-
-.advert button:hover {
-    background-color: #fff;
+  width: 380px;
+  height: 60px;
+  border-radius: 12px;
+  font-size: larger;
+  margin: 3% 0;
 }
 
 .flexsecond {
-    display: flex;
+  display: flex;
 }
 
 .personimg {
-    width: 20%;
-    margin: 0 40px;
-    border: 12px solid #c3bcbc;
+  width: 20%;
+  margin: 0 40px;
+  border: 12px solid #c3bcbc;
 }
 
 .person {
-    width: 60%;
+  width: 60%;
 }
 
 .person h4 {
-    color: #666;
-    font-size: 18px;    
+  color: #666;
+  font-size: 18px;
 }
 
 .person p {
-    color: 333;
-    font-size: 20px;
-    margin: 25px 0;
-    line-height: 1.8rem;
+  color: 333;
+  font-size: 20px;
+  margin: 25px 0;
+  line-height: 1.8rem;
 }
 
 .person p a {
-    color: hsl(180, 97%, 24%)
+  color: hsl(180, 97%, 24%);
 }
 
 .lastgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
 }
 
 .lastflex {
-    display: flex;
-    margin: 12% 7% 7% 7%;
+  display: flex;
+  margin: 12% 7% 7% 7%;
 }
 
 .lastflex img {
-    border-radius: 8px;
-    width: 60px;
-    height: 60px;
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
 }
 
 .flexdesc {
-    margin-left: 22px;
-    line-height: 2.2rem;
+  margin-left: 22px;
+  line-height: 2.2rem;
 }
 
 .flexdesc span {
-    text-decoration: underline;
-    font-size: 19px;
-    color: #666;
+  text-decoration: underline;
+  font-size: 19px;
+  color: #666;
 }
 
 .flexdesc p {
-    font-size: 20px;
-    color: #333;
+  font-size: 20px;
+  color: #333;
 }
 
 .flexdesc h4 {
-    margin: 12px 0; 
-    font-size:32px
+  margin: 12px 0;
+  font-size: 32px;
 }
 
 .morelink {
-    text-align: center;
-    margin: 10%;
-    font-size: 15px;
+  text-align: center;
+  margin: 10%;
+  font-size: 15px;
 }
 
 .morelink a {
-    color: #333;
+  color: #333;
 }
 
 .design {
-    display: flex;
-    margin: 0;
-    background-color:#f3eded;
-    width: 100%
+  display: flex;
+  margin: 0;
+  background-color: #f3eded;
+  width: 100%;
 }
 
 .designleft {
-    width: 70%;
-    margin-left: 5%;
-    margin-top: 4%;
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 4%;
 }
 
 .designleft h2 {
-    font-size:38px;
-    margin: 12px 0;
-    text-decoration: underline;
+  font-size: 38px;
+  margin: 12px 0;
+  text-decoration: underline;
 }
 
 .designleft p {
-    font-size:larger;
-    line-height: 2.1rem;
-    width: 80%
+  font-size: larger;
+  line-height: 2.1rem;
+  width: 80%;
 }
 
 .designleft button {
-    width: 380px;
-    border-radius: 8px;
-    margin: 18px;
-    padding: 18px;
-    font-size: 22px;
-    color: #9a7575;
+  width: 380px;
+  border-radius: 8px;
+  margin: 18px;
+  padding: 18px;
+  font-size: 22px;
+  color: #9a7575;
 }
 
 .design img {
-    width:320px;
-    height: 415px;
-    position: relative;
-    bottom: 45px;
+  width: 320px;
+  height: 415px;
+  position: relative;
+  bottom: 45px;
 }
 
 .griddown {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 12px;
-    margin: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+  margin: 5%;
 }
 
 .lastbox1 {
-    padding: 20px;
-    background-color: rgb(234, 234, 234);
-    width: 98%;
-    line-height: 2.0em;
-    border-radius: 15px;
+  padding: 20px;
+  background-color: rgb(234, 234, 234);
+  width: 98%;
+  line-height: 2em;
+  border-radius: 15px;
 }
 
-.lastbox1 h2{ 
-    font-size: 40px;
-    line-height: 1.3em;  
+.lastbox1 h2 {
+  font-size: 40px;
+  line-height: 1.3em;
 }
 
 .lastbox1 p {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .lastbox1 button {
-    margin: 20px 0 0 60px;
-    padding: 15px 50px;
-    color: white;
-    color: #9a7575;;
-    font-size: 20px;
- 
+  margin: 20px 0 0 60px;
+  padding: 15px 50px;
+  color: white;
+  color: #9a7575;
+  font-size: 20px;
 }
 
 .lastbox2 {
-   padding: 20px;
-   background-color: rgb(234, 234, 234);
-    width: 98%;
-    line-height: 2.0em;
-    border-radius: 15px;
+  padding: 20px;
+  background-color: rgb(234, 234, 234);
+  width: 98%;
+  line-height: 2em;
+  border-radius: 15px;
 }
 
-.lastbox2 h2{
-    font-size: 40px;
-    line-height: 1.3em;  
+.lastbox2 h2 {
+  font-size: 40px;
+  line-height: 1.3em;
 }
 
 .lastbox2 p {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .lastbox2 button {
-    margin: 20px 0 0 60px;
-    padding: 15px 50px;
-    color: #9a7575;
-    font-size: 20px;
-    border-radius: 4px;
+  margin: 20px 0 0 60px;
+  padding: 15px 50px;
+  color: #9a7575;
+  font-size: 20px;
+  border-radius: 4px;
 }
 
 .lastbox {
-    padding: 20px 20px 300px 20px ;
-    background-color: rgb(234, 234, 234);
-    width: 98%;
-    line-height: 2.0em;
-    border-radius: 15px;
-  
+  padding: 20px 20px 300px 20px;
+  background-color: rgb(234, 234, 234);
+  width: 98%;
+  line-height: 2em;
+  border-radius: 15px;
 }
-.lastbox h2{
-    font-size: 40px;
-    line-height: 1.3em;  
+.lastbox h2 {
+  font-size: 40px;
+  line-height: 1.3em;
 }
 
 .lastbox p {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .lastbox button {
-     margin: 20px 0 0 60px;
-    padding: 15px 50px;
-    color: #9a7575;
-    font-size: 20px;
+  margin: 20px 0 0 60px;
+  padding: 15px 50px;
+  color: #9a7575;
+  font-size: 20px;
 }
 
 footer {
-    text-align:center;
-    background-color: #abbabd;
-    padding: 100px;
+  text-align: center;
+  background-color: #abbabd;
+  padding: 100px;
 }
 
 footer h4 {
-    color: #333;
-    font-weight:lighter;
-    margin-bottom:28px;
+  color: #333;
+  font-weight: lighter;
+  margin-bottom: 28px;
 }
 
 footer p {
-    color:#333;
-    margin: 62px 400px 32px 400px;
-    line-height: 1.8rem;
-    font-size:14px;
+  color: #333;
+  margin: 62px 400px 32px 400px;
+  line-height: 1.8rem;
+  font-size: 14px;
 }
 
 .brands {
-    display:flex;
-    flex-wrap:wrap;
-    font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
 }
 
 .brands a {
-    margin-right:23px;
-    color: #333;
-    line-height: 2.8rem;
+  margin-right: 23px;
+  color: #333;
+  line-height: 2.8rem;
 }
 
 .about {
-    display:flex;
-    margin-left:65px;
+  display: flex;
+  margin-left: 65px;
 }
 
 .about a {
- margin-right:33px;
- color: #333
+  margin-right: 33px;
+  color: #333;
 }
 
 footer p a {
-    color:#333;
+  color: #333;
+}
+
+.sub-head:hover {
+  color: red;
+}
+
+nav ul li a:hover {
+  background-color: #2f2828;
+}
+
+.advert button:hover {
+  background-color: #fff;
 }
