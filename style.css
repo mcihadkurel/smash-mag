@@ -105,6 +105,12 @@ footer p {
   color: #666;
 }
 
+.writer span {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 .absolute h2 span {
   background-color: rgb(199, 196, 196);
   padding: 2px;
@@ -116,12 +122,6 @@ footer p {
 .writer {
   display: flex;
   margin-bottom: 40px;
-}
-
-.writer span {
-  font-style: italic;
-  font-size: 18px;
-  font-weight: lighter;
 }
 
 .writer img {
@@ -287,6 +287,11 @@ footer h4 {
   margin-right: 23px;
   color: #333;
   line-height: 2.8rem;
+}
+
+.about a {
+  margin-right: 33px;
+  color: #333;
 }
 
 .person p a {
@@ -468,11 +473,6 @@ footer {
 .about {
   display: flex;
   margin-left: 65px;
-}
-
-.about a {
-  margin-right: 33px;
-  color: #333;
 }
 
 .sub-head:hover {
