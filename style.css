@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: rgb(245, 248, 248);
+  background-color: #fff;
+  overflow-x: hidden;
 }
 
 nav {
@@ -95,7 +96,7 @@ footer p {
   margin: 0 8px;
 }
 
-.section span {
+section span {
   font-size: 9px;
 }
 
@@ -148,10 +149,14 @@ footer p {
   margin-bottom: 85px;
 }
 
-.article {
+article {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 5%;
+}
+
+.hidden {
+  display: none;
 }
 
 .leftup {
@@ -170,7 +175,7 @@ footer p {
   background-color: rgb(250, 250, 250);
 }
 
-.section {
+section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 5%;
@@ -178,7 +183,7 @@ footer p {
   grid-gap: 20px;
 }
 
-.section a {
+section a {
   color: black;
   font-weight: bolder;
   font-size: 24px;
