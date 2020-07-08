@@ -68,7 +68,7 @@ nav ul li a:hover {
     position:relative;
     left:62px;
     bottom:37px;
-    font-size:larger
+    font-size:larger;
 }
 
 ::placeholder {
@@ -154,7 +154,7 @@ article {
 
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     margin: 5%;
     line-height: 2rem;
     grid-gap: 20px;
