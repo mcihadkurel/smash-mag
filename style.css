@@ -40,6 +40,10 @@ nav ul li {
   list-style: none;
 }
 
+footer p a {
+  color: #333;
+}
+
 nav ul li a {
   text-decoration: none;
   color: white;
@@ -78,6 +82,29 @@ nav ul li a {
   margin-top: 35px;
 }
 
+footer p {
+  color: #333;
+  margin: 62px 400px 32px 400px;
+  line-height: 1.8rem;
+  font-size: 14px;
+}
+
+.writer p {
+  font-size: 20px;
+  font-family: "Bitter", serif;
+  margin: 0 8px;
+}
+
+.section span {
+  font-size: 9px;
+}
+
+.flexdesc span {
+  text-decoration: underline;
+  font-size: 19px;
+  color: #666;
+}
+
 .absolute h2 span {
   background-color: rgb(199, 196, 196);
   padding: 2px;
@@ -91,16 +118,12 @@ nav ul li a {
   margin-bottom: 40px;
 }
 
-.writer p {
-  font-size: 20px;
-  font-family: "Bitter", serif;
-  margin: 0 8px;
-}
 .writer span {
   font-style: italic;
   font-size: 18px;
   font-weight: lighter;
 }
+
 .writer img {
   height: 60px;
   width: 60px;
@@ -153,10 +176,6 @@ nav ul li a {
   margin: 5%;
   line-height: 2rem;
   grid-gap: 20px;
-}
-
-.section span {
-  font-size: 9px;
 }
 
 .section a {
@@ -242,6 +261,12 @@ nav ul li a {
   width: 60%;
 }
 
+footer h4 {
+  color: #333;
+  font-weight: lighter;
+  margin-bottom: 28px;
+}
+
 .person h4 {
   color: #666;
   font-size: 18px;
@@ -252,6 +277,16 @@ nav ul li a {
   font-size: 20px;
   margin: 25px 0;
   line-height: 1.8rem;
+}
+
+.morelink a {
+  color: #333;
+}
+
+.brands a {
+  margin-right: 23px;
+  color: #333;
+  line-height: 2.8rem;
 }
 
 .person p a {
@@ -280,12 +315,6 @@ nav ul li a {
   line-height: 2.2rem;
 }
 
-.flexdesc span {
-  text-decoration: underline;
-  font-size: 19px;
-  color: #666;
-}
-
 .flexdesc p {
   font-size: 20px;
   color: #333;
@@ -300,10 +329,6 @@ nav ul li a {
   text-align: center;
   margin: 10%;
   font-size: 15px;
-}
-
-.morelink a {
-  color: #333;
 }
 
 .design {
@@ -411,6 +436,7 @@ nav ul li a {
   line-height: 2em;
   border-radius: 15px;
 }
+
 .lastbox h2 {
   font-size: 40px;
   line-height: 1.3em;
@@ -433,29 +459,10 @@ footer {
   padding: 100px;
 }
 
-footer h4 {
-  color: #333;
-  font-weight: lighter;
-  margin-bottom: 28px;
-}
-
-footer p {
-  color: #333;
-  margin: 62px 400px 32px 400px;
-  line-height: 1.8rem;
-  font-size: 14px;
-}
-
 .brands {
   display: flex;
   flex-wrap: wrap;
   font-size: 20px;
-}
-
-.brands a {
-  margin-right: 23px;
-  color: #333;
-  line-height: 2.8rem;
 }
 
 .about {
@@ -465,10 +472,6 @@ footer p {
 
 .about a {
   margin-right: 33px;
-  color: #333;
-}
-
-footer p a {
   color: #333;
 }
 
@@ -483,3 +486,4 @@ nav ul li a:hover {
 .advert button:hover {
   background-color: #fff;
 }
+
