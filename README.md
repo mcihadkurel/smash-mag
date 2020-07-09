@@ -13,7 +13,7 @@ This project contains floating and positioning elements. Given colors like make 
 
 ## Live Demo
 
-[Live](https://rawcdn.githack.com/mcihadkurel/smash-mag/ba87ec182a2b2c48a88e66f387fef94b4696f8b0/index.html)
+[Live](https://rawcdn.githack.com/mcihadkurel/smash-mag/7ea43ffc5f1644f78621a9dbd0bbdf887693b729/index.html)
 
 
 👤 **Author**
