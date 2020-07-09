@@ -41,6 +41,13 @@ nav ul li {
   list-style: none;
 }
 
+section a {
+  color: black;
+  font-weight: bolder;
+  font-size: 24px;
+  background-color: #33333387;
+}
+
 footer p a {
   color: #333;
 }
@@ -118,6 +125,10 @@ section span {
   background-color: #3333331f;
 }
 
+.advert span {
+  background-color: #e4e0e0e0;
+}
+
 .absolute h2 span {
   background-color: rgb(199, 196, 196);
   padding: 2px;
@@ -162,7 +173,7 @@ article {
 }
 
 .leftup {
-    padding: 24% 14%;
+  padding: 24% 14%;
 }
 
 .hidden {
@@ -175,13 +186,6 @@ section {
   margin: 5% 2%;
   line-height: 2rem;
   grid-gap: 20px;
-}
-
-section a {
-  color: black;
-  font-weight: bolder;
-  font-size: 24px;
-  background-color: #33333387;
 }
 
 .unitdesc {
@@ -230,7 +234,7 @@ section a {
   background-color: #333333b8;
   width: 100%;
   padding: 200px;
-  color:#eee;
+  color: #eee;
 }
 
 .advert h1 {
@@ -244,10 +248,6 @@ section a {
   width: 70%;
   margin-left: 16%;
   background-color: #ccc5c5;
-}
-
-.advert span {
-  background-color: #e4e0e0e0;
 }
 
 .advert button {
@@ -307,7 +307,7 @@ footer h4 {
 .about a {
   margin-right: 33px;
   color: #f1eeee;
-  background-color: #928c8c
+  background-color: #928c8c;
 }
 
 .person p a {
@@ -329,7 +329,7 @@ footer h4 {
   border-radius: 8px;
   width: 60px;
   height: 60px;
-} 
+}
 
 .flexdesc {
   margin-left: 22px;
@@ -339,7 +339,7 @@ footer h4 {
 .flexdesc p {
   font-size: 20px;
   color: #333;
-  background-color: #c3bebe
+  background-color: #c3bebe;
 }
 
 .flexdesc h4 {
