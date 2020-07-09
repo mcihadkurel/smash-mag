@@ -80,7 +80,9 @@ nav ul li a {
 
 .absolute {
   text-align: center;
+  margin-left: 500px;
   margin-top: 35px;
+  position: absolute;
 }
 
 footer p {
@@ -88,16 +90,19 @@ footer p {
   margin: 62px 400px 32px 400px;
   line-height: 1.8rem;
   font-size: 14px;
+  background-color: #ccc5c5;
 }
 
 .writer p {
   font-size: 20px;
   font-family: "Bitter", serif;
-  margin: 0 8px;
+  margin: 0 0 0 8px;
+  background-color: #3333331f;
 }
 
 section span {
   font-size: 9px;
+  background-color: #33333336;
 }
 
 .flexdesc span {
@@ -110,6 +115,7 @@ section span {
   font-style: italic;
   font-size: 18px;
   font-weight: lighter;
+  background-color: #3333331f;
 }
 
 .absolute h2 span {
@@ -132,11 +138,13 @@ section span {
 
 .explanation {
   font-size: 45px;
-  width: 90%;
+  width: 100%;
+  background-color: #4c4848;
 }
 
 .tools {
   display: flex;
+  background-color: #3333331f;
 }
 
 .tools p {
@@ -146,39 +154,25 @@ section span {
 
 .artfooter {
   font-size: 50px;
-  margin-bottom: 85px;
 }
 
 article {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 5%;
+}
+
+.leftup {
+    padding: 24% 14%;
 }
 
 .hidden {
   display: none;
 }
 
-.leftup {
-  background-color: rgb(240, 243, 242);
-}
-
-.rightup {
-  background-color: rgb(245, 248, 248);
-}
-
-.leftdown {
-  background-color: rgb(247, 247, 247);
-}
-
-.rightdown {
-  background-color: rgb(250, 250, 250);
-}
-
 section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 5%;
+  margin: 5% 2%;
   line-height: 2rem;
   grid-gap: 20px;
 }
@@ -187,6 +181,11 @@ section a {
   color: black;
   font-weight: bolder;
   font-size: 24px;
+  background-color: #33333387;
+}
+
+.unitdesc {
+  background-color: #33333317;
 }
 
 .head {
@@ -228,20 +227,27 @@ section a {
 .advert {
   text-align: center;
   margin: 15% 0;
-  background-color: #f3eded;
+  background-color: #333333b8;
   width: 100%;
   padding: 200px;
+  color:#eee;
 }
 
 .advert h1 {
   font-size: 60px;
   margin: 5%;
+  background-color: #333333e0;
 }
 
 .advert p {
   margin: 2%;
   width: 70%;
   margin-left: 16%;
+  background-color: #ccc5c5;
+}
+
+.advert span {
+  background-color: #e4e0e0e0;
 }
 
 .advert button {
@@ -264,43 +270,48 @@ section a {
 
 .person {
   width: 60%;
+  background-color: #252424e0;
 }
 
 footer h4 {
-  color: #333;
+  color: #eee;
   font-weight: lighter;
   margin-bottom: 28px;
+  background-color: #524f4f;
 }
 
 .person h4 {
-  color: #666;
+  color: #cac5c5;
   font-size: 18px;
 }
 
 .person p {
-  color: 333;
+  color: #cac5c5;
   font-size: 20px;
   margin: 25px 0;
   line-height: 1.8rem;
 }
 
 .morelink a {
-  color: #333;
+  color: #eee;
+  background-color: #3e3939;
 }
 
 .brands a {
   margin-right: 23px;
-  color: #333;
+  color: #f1ecec;
   line-height: 2.8rem;
+  background-color: #272525;
 }
 
 .about a {
   margin-right: 33px;
-  color: #333;
+  color: #f1eeee;
+  background-color: #928c8c
 }
 
 .person p a {
-  color: hsl(180, 97%, 24%);
+  color: #eee;
 }
 
 .lastgrid {
@@ -318,7 +329,7 @@ footer h4 {
   border-radius: 8px;
   width: 60px;
   height: 60px;
-}
+} 
 
 .flexdesc {
   margin-left: 22px;
@@ -328,11 +339,13 @@ footer h4 {
 .flexdesc p {
   font-size: 20px;
   color: #333;
+  background-color: #c3bebe
 }
 
 .flexdesc h4 {
   margin: 12px 0;
   font-size: 32px;
+  background-color: #565151
 }
 
 .morelink {
@@ -344,7 +357,7 @@ footer h4 {
 .design {
   display: flex;
   margin: 0;
-  background-color: #f3eded;
+  background-color: #aba7a7;
   width: 100%;
 }
 
@@ -358,12 +371,18 @@ footer h4 {
   font-size: 38px;
   margin: 12px 0;
   text-decoration: underline;
+  background-color: #504c4c;
+}
+
+.designleft h5 {
+  background-color: #dedcdc;
 }
 
 .designleft p {
   font-size: larger;
   line-height: 2.1rem;
   width: 80%;
+  background-color: #cec9c9;
 }
 
 .designleft button {
@@ -372,7 +391,7 @@ footer h4 {
   margin: 18px;
   padding: 18px;
   font-size: 22px;
-  color: #9a7575;
+  color: #928c8c;
 }
 
 .design img {
@@ -465,7 +484,7 @@ footer h4 {
 
 footer {
   text-align: center;
-  background-color: #abbabd;
+  background-color: #f1ecec;
   padding: 100px;
 }
 
